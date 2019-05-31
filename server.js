@@ -34,6 +34,13 @@ const students = [{
     country:'Galicia',
     age:250,
     bio:'A ninja of everything.'
+},
+{
+    id: 5,
+    name:'André',
+    country:'Deutschland',
+    age:33,
+    bio:'A tramp, a gentleman, a poet, a dreamer, a tramp, a gentleman, a lonely fellow, always hopeful of romance and adventure.'
 }]
 
 app.get('/', (req,res) => res.send('Hello, Express!'));
